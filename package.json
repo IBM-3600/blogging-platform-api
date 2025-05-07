@@ -1,0 +1,36 @@
+{
+  "name": "blogging-platform-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon ./dist/index.ts",
+    "build:dev": "tsc --watch",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBM-3600/blogging-platform-api.git"
+  },
+  "keywords": [
+    "bloggi",
+    "api"
+  ],
+  "author": "ibrahim (IBM)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IBM-3600/blogging-platform-api/issues"
+  },
+  "homepage": "https://github.com/IBM-3600/blogging-platform-api#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb-typescript": "^3.0.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1"
+  }
+}

@@ -6,6 +6,7 @@ export default class Post {
     title: string;
     content: string;
     authorId: string;
+    comments?: ObjectId[];
     createdAt: Date;
     updatedAt: Date;
 

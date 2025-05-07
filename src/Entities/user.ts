@@ -7,6 +7,7 @@ export default class User{
     email: string;
     age?: number;
     password: string;
+    posts?: ObjectId[];
     createdAt: Date;
     updatedAt: Date;
 
